@@ -1,0 +1,76 @@
+* {
+  font-family: 'Open Sans';
+  box-sizing: border-box;
+}
+
+#header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+}
+
+#header img {
+  width: 100px;
+  height: auto;
+  float: left;
+}
+
+#header #navbar {
+  float: right;
+}
+
+#header #navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#header #navbar a:hover, #header #navbar a:focus {
+  animation: color-shift 1s;
+  animation-fill-mode: forwards;
+}
+
+.video {
+  padding-top: 150px;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+
+.contactus {
+  margin-top: 150px;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 20px;
+  padding: 0 20px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+#form label{
+  width: auto;
+  height: 100%;
+}
+
+@keyframes color-shift {
+  100% {
+    color: lightblue;
+  }
+}

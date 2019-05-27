@@ -1,0 +1,29 @@
+.my-panel {
+  margin: 3%;
+  border: 1px solid black;
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 5px
+}
+
+.my-panel .heading{
+  background: aquamarine;
+  border-radius: 5px 5px 0 0;
+  color: gray;
+  padding: 10px 20px;
+}
+
+.my-panel .body {
+  padding: 10px 20px;
+}
+
+.my-panel .showOnHover {
+  display: none;
+}
+
+.my-panel:hover {
+  box-shadow: 0 0 4px black;
+}
+
+.my-panel:hover .showOnHover {
+  display: inline-block;
+}
